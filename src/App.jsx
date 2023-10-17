@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 export default function App() {
 
   useEffect(()=>{
-    fetch('http://fakestoreapi.com/products').
+    fetch('https://fakestoreapi.com/products').
     then((resp)=> resp.json()).
     then((json)=> console.log(json))
   },[])
